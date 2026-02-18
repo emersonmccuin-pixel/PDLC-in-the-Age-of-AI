@@ -22,7 +22,7 @@ Honest assessment of where AI actually changes the PDLC today, where it could bu
 ### Boilerplate & Scaffolding
 - **Before:** Hours of setup, config, ceremony
 - **After:** Minutes
-- **Status:** Effectively solved
+- **Status:** good, but needs refinement 
 
 ---
 
