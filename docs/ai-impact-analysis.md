@@ -10,7 +10,7 @@ Honest assessment of where AI actually changes the PDLC today, where it could bu
 
 ### Implementation / Build
 - **Before:** 2-4 weeks for a mid-complexity feature
-- **After:** 1-5 days
+- **After:** Hours to a few days
 - **How:** AI coding assistants (Copilot, Claude Code, Cursor) generate code, tests, boilerplate at 5-10x human speed
 - **But:** The speed gain is largely absorbed by downstream bottlenecks
 
