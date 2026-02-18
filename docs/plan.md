@@ -15,9 +15,9 @@ This isn't an app build. Each phase produces thinking artifacts, frameworks, and
 **Goal:** Establish a shared, honest baseline of the current PDLC and where AI actually impacts it.
 
 **Artifacts produced:**
-- [x] `docs/pdlc-standard-mapping.md` — 9-phase PDLC with roles, times, bottlenecks
-- [x] `docs/pdlc-mermaid-charts.md` — 5 visual charts (flow, gantt, pie, compression, parallel)
-- [x] `docs/ai-impact-analysis.md` — 3-category impact analysis + prioritized focus areas
+- [x] `docs/baseline/pdlc-standard-mapping.md` — 9-phase PDLC with roles, times, bottlenecks
+- [x] `docs/baseline/pdlc-mermaid-charts.md` — 5 visual charts (flow, gantt, pie, compression, parallel)
+- [x] `docs/baseline/ai-impact-analysis.md` — 3-category impact analysis + prioritized focus areas
 
 **Key findings:**
 - Build went from 20% of cycle time to 5%. Total delivery only improved ~20%.

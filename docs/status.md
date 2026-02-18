@@ -12,6 +12,8 @@ Phase 2 — Solution Scaffolding (NOT STARTED)
 - [x] Create AI impact analysis document
 - [x] Set up GitHub repo and push artifacts
 - [x] Adapt starter kit workflow to this project
+- [x] Organize docs folder (baseline/, references/, planning/)
+- [x] Copy brownfield SWE process + project workflow as reference docs
 
 ### Phase 2 — Solution Scaffolding (TODO)
 - [ ] Scaffold solution: AI-assisted code review
@@ -48,3 +50,5 @@ Phase 2 — Solution Scaffolding (NOT STARTED)
 - Adapted claude-code-starter-kit workflow for this project
 - Created CLAUDE.md, plan.md, status.md
 - Phase 1 complete. Ready for Phase 2 in next session.
+- Organized docs: baseline/ for Phase 1 output, references/ for external process docs, planning/ for phase work
+- Copied brownfield SWE process and project workflow as reference material for the group

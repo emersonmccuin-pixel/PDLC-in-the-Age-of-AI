@@ -38,9 +38,14 @@ This project produces artifacts, frameworks, and eventually real systems to fix 
 
 ## What Exists
 
-- `docs/pdlc-standard-mapping.md` — 9-phase PDLC breakdown with roles, time estimates, bottlenecks, pre-AI vs post-AI comparison
-- `docs/pdlc-mermaid-charts.md` — 5 Mermaid charts (flow, gantt, pie, compression problem, parallel possibilities)
-- `docs/ai-impact-analysis.md` — Where AI helps, where it doesn't, where it makes things worse. Prioritized focus areas and research questions.
+### Baseline Analysis (Phase 1 output)
+- `docs/baseline/pdlc-standard-mapping.md` — 9-phase PDLC breakdown with roles, time estimates, bottlenecks, pre-AI vs post-AI comparison
+- `docs/baseline/pdlc-mermaid-charts.md` — 5 Mermaid charts (flow, gantt, pie, compression problem, parallel possibilities)
+- `docs/baseline/ai-impact-analysis.md` — Where AI helps, where it doesn't, where it makes things worse. Prioritized focus areas and research questions.
+
+### Reference Documents
+- `docs/references/brownfield-swe-process.md` — Real-world brownfield SWE process for a production dashboard app. Example of a current AI-assisted PDLC in practice.
+- `docs/references/claude-code-project-workflow.md` — Structured project workflow for Claude Code. The process this project itself uses.
 
 ## Conventions
 
