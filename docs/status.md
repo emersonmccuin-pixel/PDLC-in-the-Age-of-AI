@@ -105,3 +105,6 @@ Phase 3 — Group Session Prep (NOT STARTED)
 - Identified the "where to start" path: one vertical slice (Requirements → Build → Review) with structured artifacts linking them, not the full orchestrator
 - Key reframe: the project's most valuable output may not be "how each phase works with AI" but "the artifact schema and orchestration pattern that links them" — that's what doesn't exist yet
 - Created `docs/context-pipeline-architecture.md` capturing the full architecture, open questions, and build path
+
+### Next Session — Sonnet, Build
+- **Task:** Go through all documents in the repo and add proper cross-linking/navigation between them. Ensure docs reference each other where relevant for easy navigation.
