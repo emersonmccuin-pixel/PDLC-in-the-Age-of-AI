@@ -119,3 +119,4 @@ Phase 3 — Group Session Prep (NOT STARTED)
 
 ### Next Session — Opus, Planning
 - **Task:** Plan Phase 3 (Group Session Prep). Design discussion guide, current vs. future state framework, debate topics from Phase 2 scaffolds, prioritization exercise, and packaging for sharing with the Pittsburgh group.
+- **Also:** Audit existing docs for staleness. The project shifted from a 9-phase model to a 14-phase AI-native PDLC. Some documents (CLAUDE.md, plan.md description of Phase 2 structure, potentially the reference docs) may contain outdated framing, stale references, or descriptions that predate the expanded model. Identify what needs updating and do it.
