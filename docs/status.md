@@ -52,3 +52,12 @@ Phase 2 — Solution Scaffolding (NOT STARTED)
 - Phase 1 complete. Ready for Phase 2 in next session.
 - Organized docs: baseline/ for Phase 1 output, references/ for external process docs, planning/ for phase work
 - Copied brownfield SWE process and project workflow as reference material for the group
+- Analyzed both reference docs against the 9-phase PDLC — identified that both cover phases 1-4 well but phases 5-9 (review, QA, staging, deploy, feedback) are blank spots
+- Key insight: brownfield process is team-aware but AI-naive past build; project workflow is AI-aware but team-naive. AI-native PDLC needs to be both.
+- Identified three-layer model for universality: Principles (universal) → Patterns (platform-agnostic) → Implementations (org-specific)
+- Decision: pause before Phase 2 scaffolding to incorporate new foundational material
+
+### Before Next Session
+- Read `docs/full-pdlc-ai-native-brief.md` — new foundational input from Emerson
+- Restructure Phase 2 plan around the three-layer model (principles → patterns → implementations)
+- Incorporate gap analysis findings into the scaffold structure
