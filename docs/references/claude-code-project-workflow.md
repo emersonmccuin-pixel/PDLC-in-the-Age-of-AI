@@ -1,5 +1,7 @@
 # Structured Project Workflow — Claude Code Instructions
 
+> **Project context:** This document was added as reference material for the [PDLC in the Age of AI](../../CLAUDE.md) project. It represents a structured AI-assisted project workflow. See [Phase 1 Summary](../planning/phase-1/summary.md) for how this fed into the analysis.
+
 > **This file is meant to be read by Claude Code, not by a human.**
 > Drop this file into your project folder and Claude will walk you through everything.
 > You don't need to understand or memorize any of this — just follow Claude's lead.

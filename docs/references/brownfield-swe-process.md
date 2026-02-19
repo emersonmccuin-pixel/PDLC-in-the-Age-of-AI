@@ -1,5 +1,7 @@
 # Brownfield AI-Assisted SWE Process
 
+> **Project context:** This document was added as reference material for the [PDLC in the Age of AI](../../CLAUDE.md) project. It represents a real-world brownfield SWE process that the AI-native PDLC aims to improve upon. See [Phase 1 Summary](../planning/phase-1/summary.md) for how this fed into the analysis.
+
 *A brownfield AI-assisted SWE process for production applications (Rails API + React frontend), adapted from the greenfield Claude Code SWE Process.*
 
 ---
