@@ -35,7 +35,7 @@ This isn't an app build. Each phase produces thinking artifacts, frameworks, and
 
 ### Structure
 
-Four domains, each owned by a different part of the organization. Each domain gets a directory with one doc per phase, plus a top-level overview.
+Four domains, each owned by a different part of the organization. Each phase gets a flat numbered file (00–13), plus a top-level overview.
 
 ```
 docs/planning/phase-2/
@@ -115,7 +115,7 @@ Plus:
 - [x] Scaffold: Operations & maintenance (Phase 12)
 - [x] Scaffold: Sunset & deprecation (Phase 13)
 
-**Output:** `docs/planning/phase-2/` — 14 phase docs + 1 overview, organized into 4 domain directories.
+**Output:** `docs/planning/phase-2/` — 14 phase docs + 1 overview, flat numbered files (00–13).
 
 ---
 

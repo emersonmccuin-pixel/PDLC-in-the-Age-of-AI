@@ -117,8 +117,12 @@ Phase 3 — Group Session Prep (NOT STARTED)
 - Added project context to reference documents
 - Restructured phase-2/ from 4 domain subdirectories to flat numbered files (00-13)
 
-### Next Session — Sonnet, Build
-- **Task:** Doc audit. Read all existing docs and identify stale content — outdated framing, references that predate the 14-phase model, descriptions that no longer match the current structure. Key candidates: CLAUDE.md, plan.md prose (the Phase 2 structure section still says "Four domains, each owned by a different part of the organization. Each domain gets a directory"), planning/phase-1/summary.md "What's Next" section, and the reference docs. Make the updates.
+### Session 5 — 2026-02-18 (Sonnet, Build)
+- Doc audit: identified and fixed stale content across 3 files
+- CLAUDE.md: updated status line (Phase 2 complete, Phase 3 next); added Phase 2 output and context pipeline arch to "What Exists"
+- plan.md: fixed two instances of stale "domain directories" prose (flat numbered structure is the reality)
+- phase-1/summary.md: updated "What's Next" to reflect Phase 2 complete, Phase 3 next
+- Reference docs were clean — project context headers from Session 4 already current
 
-### Session After That — Opus, Planning
+### Next Session — Opus, Planning
 - **Task:** Plan Phase 3 (Group Session Prep). Design discussion guide, current vs. future state framework, debate topics from Phase 2 scaffolds, prioritization exercise, and packaging for sharing with the Pittsburgh group.

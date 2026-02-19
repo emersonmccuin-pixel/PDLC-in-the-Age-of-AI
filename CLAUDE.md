@@ -11,7 +11,7 @@ This project produces artifacts, frameworks, and eventually real systems to fix 
 - **Owner:** Emerson McCuin
 - **Working group:** Pittsburgh-based group of SWEs, product folks, and others from across the PDLC
 - **Repo:** https://github.com/emersonmccuin-pixel/PDLC-in-the-Age-of-AI
-- **Status:** Phase 1 complete (problem mapping). Phase 2 next (solution scaffolding).
+- **Status:** Phases 1–2 complete (problem mapping + solution scaffolding). Phase 3 next (group session prep).
 
 ## Session Protocol
 
@@ -42,6 +42,12 @@ This project produces artifacts, frameworks, and eventually real systems to fix 
 - `docs/baseline/pdlc-standard-mapping.md` — 9-phase PDLC breakdown with roles, time estimates, bottlenecks, pre-AI vs post-AI comparison
 - `docs/baseline/pdlc-mermaid-charts.md` — 5 Mermaid charts (flow, gantt, pie, compression problem, parallel possibilities)
 - `docs/baseline/ai-impact-analysis.md` — Where AI helps, where it doesn't, where it makes things worse. Prioritized focus areas and research questions.
+
+### Solution Scaffolding (Phase 2 output)
+- `docs/full-pdlc-ai-native-brief.md` — Expanded 14-phase AI-native lifecycle with three big shifts and open questions. Input to Phase 2.
+- `docs/planning/phase-2/overview.md` — Domain map, cross-cutting themes (shift-left, parallel GTM, criteria gates, AI-enforced governance), 17 open questions, interdependency map
+- `docs/planning/phase-2/00-13-*.md` — 14 phase scaffold docs (flat numbered), one per phase. Three-layer structure: Principle → Pattern → Implementation Example.
+- `docs/context-pipeline-architecture.md` — The hardest unsolved problem: how context flows between phases. Three-component architecture and build path.
 
 ### Reference Documents
 - `docs/references/brownfield-swe-process.md` — Real-world brownfield SWE process for a production dashboard app. Example of a current AI-assisted PDLC in practice.
