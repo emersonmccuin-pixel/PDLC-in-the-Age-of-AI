@@ -192,7 +192,19 @@ Touches: Phase 0 (portfolio governance), Phase 2 (requirements — "should this 
 
 **Solution angle: AI-enforced quality gates.** AI is both the thing that enables non-engineers to build AND the thing that can enforce standards on what they build. You don't restrict who can build — you restrict what can ship. At build time, AI writes code following project conventions by default (the builder doesn't need to know the conventions — the AI does). At review time, AI pre-review catches convention violations, architectural drift, duplicate functionality, missing tests. At merge time, AI-powered CI/CD understands intent, not just syntax — "this duplicates module X" or "this doesn't follow our data access pattern." The new governance mechanism isn't "only engineers can write code." It's "the AI-enforced pipeline ensures what ships meets standards, regardless of who wrote it."
 
-*To be addressed after the main Phase 2 scaffolding. May become its own cross-cutting theme or a section in the overview doc.*
+*Addressed in Phase 2 overview doc as cross-cutting theme #4: AI-Enforced Quality Gates.*
+
+### The context pipeline problem
+
+The Phase 2 scaffolds describe what AI does at each phase in isolation. The real implementation challenge: how does context flow between phases when no single AI system can hold the full lifecycle?
+
+This is arguably the hardest unsolved problem and potentially the project's most valuable contribution. The individual phase improvements (AI code review, AI testing, etc.) already exist as products. What doesn't exist: a structured way to link artifacts across phases so that the AI reviewing code in Phase 5 knows what the requirement was in Phase 2 and what the design decision was in Phase 3.
+
+**Architecture:** Three components — Structured Artifact Store (linked artifacts with stable IDs), Phase Agents (specialized AI with curated context), Orchestrator (retrieves and compresses the right context for each task).
+
+**Build path:** Don't build the orchestrator first. Build one vertical slice: Requirements → Build → Review, connected by structured artifacts. Validate the artifact schema and context retrieval patterns on real work, then extend.
+
+**Full analysis:** `docs/context-pipeline-architecture.md`
 
 ---
 

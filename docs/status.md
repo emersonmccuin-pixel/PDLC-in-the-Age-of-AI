@@ -98,3 +98,10 @@ Phase 3 — Group Session Prep (NOT STARTED)
 - Each doc follows the three-layer template: Principle → Pattern → Implementation Example, plus current state, what changes, role shifts, open questions, and success metrics
 - All docs use the dashboard customization feature as a running implementation example for continuity
 - Phase 2 complete. Ready for Phase 3 planning session.
+
+### Session 3 (continued) — 2026-02-18 (Opus)
+- Identified the core implementation challenge: context pipelines. The Phase 2 scaffolds describe what each phase does in isolation, but the real problem is how context flows between phases when no AI can hold the full lifecycle.
+- Documented the three-component architecture: Structured Artifact Store (linked artifacts with stable IDs), Phase Agents (specialized AI with curated context), Orchestrator (context retrieval and compression)
+- Identified the "where to start" path: one vertical slice (Requirements → Build → Review) with structured artifacts linking them, not the full orchestrator
+- Key reframe: the project's most valuable output may not be "how each phase works with AI" but "the artifact schema and orchestration pattern that links them" — that's what doesn't exist yet
+- Created `docs/context-pipeline-architecture.md` capturing the full architecture, open questions, and build path
