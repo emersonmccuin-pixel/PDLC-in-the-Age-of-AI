@@ -317,3 +317,18 @@ You have the full lifecycle above. The goal is to take any phase (or set of phas
 The project repo is at https://github.com/emersonmccuin-pixel/PDLC-in-the-Age-of-AI. Existing baseline analysis is in `docs/baseline/`. The master plan is in `docs/plan.md`.
 
 Key framing: The question is NOT "how do we make developers faster?" The question is "how do we redesign the entire lifecycle for a world where building is nearly free AND AI is a participant at every stage?"
+
+---
+
+## Navigation
+
+- [Back to Plan](plan.md)
+
+### Source Material
+- [Phase 1 Summary](planning/phase-1/summary.md) — the findings this brief expands on
+- [PDLC Standard Mapping](baseline/pdlc-standard-mapping.md) — original 9-phase baseline
+- [AI Impact Analysis](baseline/ai-impact-analysis.md) — where AI helps and hurts
+
+### What This Produced
+- [Phase 2 Overview](planning/phase-2/overview.md) — solution scaffolds for all 14 phases
+- [Context Pipeline Architecture](context-pipeline-architecture.md) — the implementation challenge that emerged
