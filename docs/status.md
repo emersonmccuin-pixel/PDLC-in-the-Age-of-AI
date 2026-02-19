@@ -106,3 +106,12 @@ Phase 3 — Context Pipeline Specification (IN PROGRESS)
 - Designed new repo structure for GitHub navigation: `phases/` (top-level) for scaffolds, `context-pipeline.md` (root) for the core problem, `docs/` for project management only
 - Wrote restructure execution plan to `docs/plans/restructure-plan.md` for Sonnet to execute
 - **Next session (Sonnet):** Execute restructure plan (move files, fix links), commit and push everything
+
+### Session 7 — 2026-02-19 (Sonnet, Build)
+- Executed restructure plan from `docs/plans/restructure-plan.md`
+- Moved all 14 phase scaffolds + overview from `docs/planning/phase-2/` to `phases/`
+- Moved `docs/context-pipeline-architecture.md` to `context-pipeline.md` (repo root)
+- Cleaned up empty `docs/planning/` directories
+- Updated all internal links: phase docs (`../../` → `../`), context-pipeline.md, README.md, CLAUDE.md, docs/plan.md
+- Verified all links resolve — only false positives were example text in the restructure plan doc itself
+- Committed and pushed to GitHub
