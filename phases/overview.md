@@ -232,7 +232,5 @@ The goal is not prescriptive solutions. It's structured scaffolding — enough t
 
 ## Navigation
 
-- [Back to Plan](../../plan.md)
-- [Phase 1 Summary](../phase-1/summary.md)
-- [Full AI-Native PDLC Brief](../../full-pdlc-ai-native-brief.md) — the input document that shaped this phase
-- [Context Pipeline Architecture](../../context-pipeline-architecture.md) — the implementation challenge that emerged from these scaffolds
+- [Back to Plan](../docs/plan.md)
+- [Context Pipeline Architecture](../context-pipeline.md) — the implementation challenge that emerged from these scaffolds

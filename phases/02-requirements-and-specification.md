@@ -100,7 +100,7 @@ output (hours)           (same day)           GTM brief seed        full context
 
 ## Current State
 
-From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
+From Phase 1 baseline:
 - **Typical time:** 1-3 weeks
 - **Bottlenecks:** PRD review cycles, requirement ambiguity, ticket review/commenting (can take DAYS just for PM review)
 - **Key roles:** Product Manager, Tech Lead, Designer, Engineering Manager
@@ -161,4 +161,4 @@ From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 | [Phase 1: Ideation & Discovery](01-ideation-and-discovery.md) | [Phase 2 Overview](overview.md) | [Phase 3: Design](03-design.md) |
 
 ### Related Documents
-- [Context Pipeline Architecture](../../context-pipeline-architecture.md) — how requirements flow to downstream phases
+- [Context Pipeline Architecture](../context-pipeline.md) — how requirements flow to downstream phases

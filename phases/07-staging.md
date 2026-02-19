@@ -103,7 +103,7 @@ Deploy to staging  -->  AI monitors     -->  Async stakeholder  -->  Auto-advanc
 
 ## Current State
 
-From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
+From Phase 1 baseline:
 - **Typical time:** 1-3 weeks
 - **Bottlenecks:** Environment contention, deployment queue, "let it bake" culture with no defined criteria, stakeholder availability for signoff
 - **Key roles:** DevOps, Engineering Manager, Product Manager, Stakeholders
@@ -164,4 +164,3 @@ From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 | [Phase 6: QA & Testing](06-qa-and-testing.md) | [Phase 2 Overview](overview.md) | [Phase 8: Release](08-release.md) |
 
 ### Related Documents
-- [PDLC Mermaid Charts](../../baseline/pdlc-mermaid-charts.md) — visualization of staging bottleneck

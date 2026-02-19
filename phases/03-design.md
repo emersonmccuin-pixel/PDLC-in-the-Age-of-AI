@@ -97,7 +97,7 @@ multiple variants        & directs              interaction +         + test spe
 
 ## Current State
 
-From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
+From Phase 1 baseline:
 - **Typical time:** 1-3 weeks
 - **Bottlenecks:** Design review loops, stakeholder feedback cycles, pixel-level debates
 - **Key roles:** UX Designer, UI Designer, Product Manager, Frontend Engineer
@@ -157,4 +157,3 @@ From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 | [Phase 2: Requirements & Specification](02-requirements-and-specification.md) | [Phase 2 Overview](overview.md) | [Phase 4: Implementation](04-implementation.md) |
 
 ### Related Documents
-- [PDLC Standard Mapping](../../baseline/pdlc-standard-mapping.md) — traditional design phase baseline

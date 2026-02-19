@@ -95,7 +95,7 @@ PR submitted  -->  AI pre-review   -->  Risk triage    -->  Human review
 
 ## Current State
 
-From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
+From Phase 1 baseline:
 - **Typical time:** 3-14 days (often weeks)
 - **Bottlenecks:** Reviewer bandwidth, context switching, sequential approval gates (2-3 required approvals), review-revise-re-review loops
 - **Key roles:** Peer Engineers (2-3 reviewers), Tech Lead
@@ -157,5 +157,4 @@ From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 | [Phase 4: Implementation](04-implementation.md) | [Phase 2 Overview](overview.md) | [Phase 6: QA & Testing](06-qa-and-testing.md) |
 
 ### Related Documents
-- [AI Impact Analysis](../../baseline/ai-impact-analysis.md) — review is the phase AI made *worse*
-- [Context Pipeline Architecture](../../context-pipeline-architecture.md) — how review context links to requirements
+- [Context Pipeline Architecture](../context-pipeline.md) — how review context links to requirements

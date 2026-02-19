@@ -87,7 +87,7 @@ AI pre-research     -->  Humans react     -->  AI refines    -->  Validated
 
 ## Current State
 
-From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
+From Phase 1 baseline:
 - **Typical time:** 1-4 weeks
 - **Bottlenecks:** Scheduling alignment meetings, consensus-building, unclear ownership
 - **Key roles:** Product Manager, UX Researcher, Business Stakeholders
@@ -145,4 +145,3 @@ From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 | [Phase 0: Portfolio Prioritization](00-portfolio-prioritization.md) | [Phase 2 Overview](overview.md) | [Phase 2: Requirements & Specification](02-requirements-and-specification.md) |
 
 ### Related Documents
-- [AI Impact Analysis](../../baseline/ai-impact-analysis.md) — what AI can/can't do today

@@ -169,4 +169,3 @@ From the brief:
 | [Phase 10: Monitoring & Feedback](10-monitoring-and-feedback.md) | [Phase 2 Overview](overview.md) | [Phase 12: Operations & Maintenance](12-operations-and-maintenance.md) |
 
 ### Related Documents
-- [Full AI-Native PDLC Brief](../../full-pdlc-ai-native-brief.md) — customer success as a new addition

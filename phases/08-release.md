@@ -97,7 +97,7 @@ staging approval       rollout                 + auto-rollback        success
 
 ## Current State
 
-From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
+From Phase 1 baseline:
 - **Typical time:** 1-3 days
 - **Bottlenecks:** Release train scheduling, change advisory board, deploy freezes
 - **Key roles:** DevOps, On-call Engineer, Engineering Manager
@@ -158,4 +158,3 @@ From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 | [Phase 7: Staging](07-staging.md) | [Phase 2 Overview](overview.md) | [Phase 9: Go-to-Market](09-go-to-market.md) |
 
 ### Related Documents
-- [PDLC Standard Mapping](../../baseline/pdlc-standard-mapping.md) — traditional release gates

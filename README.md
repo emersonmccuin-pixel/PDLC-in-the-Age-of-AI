@@ -33,43 +33,29 @@ A Pittsburgh-based working group of software engineers, product managers, and pr
 |-------|-------|--------|
 | Phase 1 — Problem Mapping | Baseline PDLC, AI impact analysis, visualization | Complete |
 | Phase 2 — Solution Scaffolding | Concrete solution approaches for all 14 phases | Complete |
-| Phase 3 — Group Session Prep | Discussion guide, debate topics, prioritization exercise | Next |
-| Phase 4 — Solution Deep Dives | Full treatment of top-priority solutions | Planned |
-| Phase 5 — Prototype & Pilot | Design and build testable prototypes | Planned |
-| Phase 6 — Test & Iterate | Run pilots, collect data, learn | Planned |
+| Phase 3 — Context Pipeline Spec | Buildable spec for structured artifacts + agent contracts | In Progress |
+| Phase 4 — Prototype | Build and test the context pipeline on a real feature | Planned |
 
 ## What's Been Built
 
-### Phase 1 — Baseline
+### PDLC Phase Scaffolds
 
-- [`docs/baseline/pdlc-standard-mapping.md`](docs/baseline/pdlc-standard-mapping.md) — 9-phase PDLC breakdown with roles, time estimates, bottlenecks, and pre/post-AI comparison
-- [`docs/baseline/pdlc-mermaid-charts.md`](docs/baseline/pdlc-mermaid-charts.md) — 5 diagrams: flow, gantt, pie, the compression problem, parallel possibilities
-- [`docs/baseline/ai-impact-analysis.md`](docs/baseline/ai-impact-analysis.md) — Where AI helps, where it doesn't, where it makes things worse
+- [`phases/overview.md`](phases/overview.md) — Domain map, cross-cutting themes, 17 open questions, interdependency map
+- [`phases/`](phases/) — 14 phase scaffold docs, one per phase. Each follows a three-layer structure: Principle → Pattern → Implementation Example
 
-### Phase 2 — Solution Scaffolds
+### Context Pipeline
 
-- [`docs/full-pdlc-ai-native-brief.md`](docs/full-pdlc-ai-native-brief.md) — The expanded 14-phase AI-native lifecycle: three big shifts, open questions, and the framing that drives Phase 2
-- [`docs/planning/phase-2/overview.md`](docs/planning/phase-2/overview.md) — Domain map, cross-cutting themes, 17 open questions, interdependency map
-- [`docs/planning/phase-2/`](docs/planning/phase-2/) — 14 phase scaffold docs, one per phase. Each follows a three-layer structure: Principle → Pattern → Implementation Example
-
-### Architecture Research
-
-- [`docs/context-pipeline-architecture.md`](docs/context-pipeline-architecture.md) — The hardest unsolved problem: how context flows between phases when no single AI can hold the full lifecycle. Defines a three-component architecture and identifies the right place to start building.
+- [`context-pipeline.md`](context-pipeline.md) — The core problem: how context flows between phases when no single AI can hold the full lifecycle. Three-component architecture (artifact store, phase agents, orchestrator) and build path.
 
 ## Repo Structure
 
 ```
+context-pipeline.md        # The core unsolved problem: context flow between phases
+phases/                    # 14 PDLC phase scaffolds + overview
 docs/
-+-- baseline/              # Phase 1: PDLC mapping, charts, AI impact analysis
-+-- planning/
-|   +-- phase-1/           # Phase 1 summary
-|   +-- phase-2/           # Phase 2: 14 solution scaffolds + overview
-|   +-- phase-3/           # Phase 3: group session materials (in progress)
-+-- references/            # Real-world process docs used as reference material
-+-- full-pdlc-ai-native-brief.md   # The 14-phase AI-native brief
-+-- context-pipeline-architecture.md  # Context pipeline design
 +-- plan.md                # Master plan across all phases
 +-- status.md              # Task tracker and session log
+archive/                   # Phase 1 baseline, references, earlier drafts
 ```
 
 ## Key Ideas
@@ -84,4 +70,4 @@ docs/
 
 ---
 
-*Work in progress. Group sessions and deep dives are next.*
+*Work in progress. Context pipeline specification is next.*

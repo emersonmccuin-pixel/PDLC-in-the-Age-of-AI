@@ -103,7 +103,7 @@ anomaly              + correlates        (auto-file,              (hours)
 
 ## Current State
 
-From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
+From Phase 1 baseline:
 - **Typical approach:** Ongoing but passive. Wait for bug reports. Check dashboards manually.
 - **Bottlenecks:** Feedback loop speed, prioritization against new work
 - **Key roles:** Product Manager, Engineering, Support
@@ -163,4 +163,4 @@ From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 | [Phase 9: Go-to-Market](09-go-to-market.md) | [Phase 2 Overview](overview.md) | [Phase 11: Customer Success](11-customer-success.md) |
 
 ### Related Documents
-- [Context Pipeline Architecture](../../context-pipeline-architecture.md) — monitoring feeds back into the context pipeline
+- [Context Pipeline Architecture](../context-pipeline.md) — monitoring feeds back into the context pipeline

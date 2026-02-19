@@ -175,5 +175,4 @@ From the brief:
 | [Phase 11: Customer Success](11-customer-success.md) | [Phase 2 Overview](overview.md) | [Phase 13: Sunset & Deprecation](13-sunset-and-deprecation.md) |
 
 ### Related Documents
-- [Context Pipeline Architecture](../../context-pipeline-architecture.md) — ops as a context consumer
-- [Brownfield SWE Process](../../references/brownfield-swe-process.md) — real-world ops workflow
+- [Context Pipeline Architecture](../context-pipeline.md) — ops as a context consumer

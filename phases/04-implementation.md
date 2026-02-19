@@ -102,7 +102,7 @@ from test specs         to pass tests         (security, style,     submitted
 
 ## Current State
 
-From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
+From Phase 1 baseline:
 - **Typical time:** 1-5 days with AI assistance (already collapsed from 2-4 weeks)
 - **Bottlenecks:** Ambiguous tickets, blocked dependencies, environment issues
 - **Key roles:** Software Engineers, Tech Lead
@@ -161,5 +161,3 @@ From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 | [Phase 3: Design](03-design.md) | [Phase 2 Overview](overview.md) | [Phase 5: Code Review](05-code-review.md) |
 
 ### Related Documents
-- [AI Impact Analysis](../../baseline/ai-impact-analysis.md) — build is the phase AI collapsed most
-- [Brownfield SWE Process](../../references/brownfield-swe-process.md) — real-world implementation workflow

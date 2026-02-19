@@ -2,61 +2,26 @@
 
 ## Current Phase
 
-Phase 3 — Group Session Prep (NOT STARTED)
+Phase 3 — Context Pipeline Specification (IN PROGRESS)
 
 ## Task Tracker
 
 ### Phase 1 — Problem Mapping (COMPLETE)
-- [x] Create standard PDLC mapping document
-- [x] Create Mermaid visualization charts
-- [x] Create AI impact analysis document
-- [x] Set up GitHub repo and push artifacts
-- [x] Adapt starter kit workflow to this project
-- [x] Organize docs folder (baseline/, references/, planning/)
-- [x] Copy brownfield SWE process + project workflow as reference docs
+*Artifacts archived to `archive/baseline/`.*
 
 ### Phase 2 — Solution Scaffolding (COMPLETE)
+*14 phase scaffolds + overview in `docs/planning/phase-2/`.*
 
-**Overview:**
-- [x] Create overview doc (domain map, cross-cutting themes, open questions)
+### Phase 3 — Context Pipeline Specification (IN PROGRESS)
+- [ ] Define artifact schema (types, fields, linking rules, versioning)
+- [ ] Define Requirements agent contract (inputs, outputs, decision logic)
+- [ ] Define Build agent contract (inputs, outputs, decision logic)
+- [ ] Define Review agent contract (inputs, outputs, decision logic)
+- [ ] Define orchestration logic for each handoff
+- [ ] Write end-to-end trace using R2R heatmap example
 
-**Strategy & Planning:**
-- [x] Portfolio prioritization (Phase 0)
-- [x] Ideation & discovery (Phase 1)
-- [x] Requirements & specification (Phase 2)
-
-**Build & Deliver:**
-- [x] Design (Phase 3)
-- [x] Implementation (Phase 4)
-- [x] Code review (Phase 5)
-- [x] QA & testing (Phase 6)
-- [x] Staging (Phase 7)
-- [x] Release (Phase 8)
-
-**Go-to-Market & Adoption:**
-- [x] Go-to-market (Phase 9)
-- [x] Customer success & adoption (Phase 11)
-
-**Operate & Evolve:**
-- [x] Monitoring & feedback (Phase 10)
-- [x] Operations & maintenance (Phase 12)
-- [x] Sunset & deprecation (Phase 13)
-
-### Phase 3 — Group Session Prep (TODO)
-- [ ] Discussion guide / agenda
-- [ ] Current state vs. future state framework
-- [ ] Debate topics from solution scaffolds
-- [ ] Prioritization exercise
-- [ ] Package for sharing
-
-### Phase 4 — Solution Deep Dives (TODO)
-*Tasks TBD after group input*
-
-### Phase 5 — Prototype & Pilot Design (TODO)
-*Tasks TBD after Phase 4*
-
-### Phase 6 — Test, Learn, Iterate (TODO)
-*Tasks TBD after Phase 5*
+### Phase 4 — Prototype (TODO)
+*Tasks TBD after Phase 3*
 
 ## Session Log
 
@@ -126,7 +91,18 @@ Phase 3 — Group Session Prep (NOT STARTED)
 - Created README.md for GitHub repo (public-facing intro, status table, repo structure, key ideas)
 - Pushed all changes to GitHub
 
-### Session 6 — Opus, Planning
-- **Task:** Plan Phase 3 (Group Session Prep). Design discussion guide, current vs. future state framework, debate topics from Phase 2 scaffolds, prioritization exercise, and packaging for sharing with the Pittsburgh group.
-- Read the Phase 2 scaffolds before planning — especially the overview doc and the Build & Deliver + Strategy & Planning phases, which will likely generate the most debate.
-- Key output: `docs/planning/phase-3/` with session materials ready to share.
+### Session 6 — 2026-02-19 (Opus, Planning)
+- Pivoted Phase 3 from "Group Session Prep" to "Context Pipeline Specification"
+- Original plan was to prepare discussion materials for the Pittsburgh group meetup. Emerson decided the group session prep wasn't the priority — the real need is fleshing out documentation to the point where we can actually build AI tooling, specifically around the context pipeline.
+- Read all Phase 2 scaffolds (overview, requirements, implementation, code review, QA, portfolio prioritization) and the context pipeline architecture doc
+- Decided to use the R2R heatmap feature from the CIA Re-Write (`E:\Claude Code Projects\HAAS Alert\CIA Re-Write`) as the concrete scenario instead of the hypothetical dashboard customization example. R2R is fully planned but unbuilt, with 6 real planning artifacts that demonstrate exactly the disconnection problem the context pipeline solves.
+- Explored the CIA Re-Write codebase and read all R2R planning docs (interview, implementation plan, Jira draft, data findings, action plan)
+- Designed the spec structure: artifact schema → requirements phase → build phase → review phase → end-to-end trace, each illustrated with R2R
+- Wrote design doc to `archive/plans/2026-02-18-context-pipeline-spec-design.md`
+- Audited all repo docs — decided to keep only Phase 2 scaffolds + context pipeline doc, archive everything else
+- Archived Phase 1 baseline, references, brief, phase-1 summary, and working plans to `archive/`
+- Updated CLAUDE.md, README.md, plan.md, status.md to remove archived references and reflect new direction
+- Cleaned broken links in remaining docs (context pipeline doc, Phase 2 scaffolds)
+- Designed new repo structure for GitHub navigation: `phases/` (top-level) for scaffolds, `context-pipeline.md` (root) for the core problem, `docs/` for project management only
+- Wrote restructure execution plan to `docs/plans/restructure-plan.md` for Sonnet to execute
+- **Next session (Sonnet):** Execute restructure plan (move files, fix links), commit and push everything

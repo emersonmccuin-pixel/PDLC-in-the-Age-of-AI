@@ -95,7 +95,7 @@ passing)            visual + perf           (edge cases,           findings +
 
 ## Current State
 
-From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
+From Phase 1 baseline:
 - **Typical time:** 1-3 weeks
 - **Bottlenecks:** QA team bandwidth, environment instability, unclear acceptance criteria, bug-fix-retest cycles
 - **Key roles:** QA Engineers, Product Manager (UAT)
@@ -159,4 +159,3 @@ From AI impact analysis:
 | [Phase 5: Code Review](05-code-review.md) | [Phase 2 Overview](overview.md) | [Phase 7: Staging](07-staging.md) |
 
 ### Related Documents
-- [PDLC Standard Mapping](../../baseline/pdlc-standard-mapping.md) — traditional QA baseline

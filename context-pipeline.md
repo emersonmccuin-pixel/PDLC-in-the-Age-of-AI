@@ -290,14 +290,13 @@ The group discussion (Phase 3) should include this framing. The question for the
 
 ## Navigation
 
-- [Back to Plan](plan.md)
+- [Back to Plan](docs/plan.md)
 
 ### Source Material
-- [Phase 2 Overview](planning/phase-2/overview.md) — the solution scaffolds that revealed this problem
-- [Full AI-Native PDLC Brief](full-pdlc-ai-native-brief.md) — the lifecycle this pipeline connects
+- [Phase 2 Overview](phases/overview.md) — the solution scaffolds that revealed this problem
 
 ### Key Phase Connections
-- [Phase 2: Requirements & Specification](planning/phase-2/02-requirements-and-specification.md) — where structured artifacts originate
-- [Phase 4: Implementation](planning/phase-2/04-implementation.md) — the vertical slice starting point
-- [Phase 5: Code Review](planning/phase-2/05-code-review.md) — where context retrieval is most critical
-- [Phase 10: Monitoring & Feedback](planning/phase-2/10-monitoring-and-feedback.md) — where lifecycle traceability is tested
+- [Phase 2: Requirements & Specification](phases/02-requirements-and-specification.md) — where structured artifacts originate
+- [Phase 4: Implementation](phases/04-implementation.md) — the vertical slice starting point
+- [Phase 5: Code Review](phases/05-code-review.md) — where context retrieval is most critical
+- [Phase 10: Monitoring & Feedback](phases/10-monitoring-and-feedback.md) — where lifecycle traceability is tested

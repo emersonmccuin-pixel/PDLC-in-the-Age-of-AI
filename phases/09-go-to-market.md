@@ -170,4 +170,3 @@ From the brief:
 | [Phase 8: Release](08-release.md) | [Phase 2 Overview](overview.md) | [Phase 10: Monitoring & Feedback](10-monitoring-and-feedback.md) |
 
 ### Related Documents
-- [Full AI-Native PDLC Brief](../../full-pdlc-ai-native-brief.md) — GTM as a new addition beyond the original 9-phase model
