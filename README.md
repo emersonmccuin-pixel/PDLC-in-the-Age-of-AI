@@ -33,7 +33,7 @@ A Pittsburgh-based working group of software engineers, product managers, and pr
 |-------|-------|--------|
 | Phase 1 — Problem Mapping | Baseline PDLC, AI impact analysis, visualization | Complete |
 | Phase 2 — Solution Scaffolding | Concrete solution approaches for all 14 phases | Complete |
-| Phase 3 — Group Session Prep | Discussion guide, debate topics, prioritization exercise | In progress |
+| Phase 3 — Group Session Prep | Discussion guide, debate topics, prioritization exercise | Next |
 | Phase 4 — Solution Deep Dives | Full treatment of top-priority solutions | Planned |
 | Phase 5 — Prototype & Pilot | Design and build testable prototypes | Planned |
 | Phase 6 — Test & Iterate | Run pilots, collect data, learn | Planned |
@@ -42,7 +42,7 @@ A Pittsburgh-based working group of software engineers, product managers, and pr
 
 ### Phase 1 — Baseline
 
-- [`docs/baseline/pdlc-standard-mapping.md`](docs/baseline/pdlc-standard-mapping.md) — 14-phase PDLC breakdown with roles, time estimates, bottlenecks, and pre/post-AI comparison
+- [`docs/baseline/pdlc-standard-mapping.md`](docs/baseline/pdlc-standard-mapping.md) — 9-phase PDLC breakdown with roles, time estimates, bottlenecks, and pre/post-AI comparison
 - [`docs/baseline/pdlc-mermaid-charts.md`](docs/baseline/pdlc-mermaid-charts.md) — 5 diagrams: flow, gantt, pie, the compression problem, parallel possibilities
 - [`docs/baseline/ai-impact-analysis.md`](docs/baseline/ai-impact-analysis.md) — Where AI helps, where it doesn't, where it makes things worse
 

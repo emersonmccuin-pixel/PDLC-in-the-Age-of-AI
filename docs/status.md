@@ -123,6 +123,10 @@ Phase 3 — Group Session Prep (NOT STARTED)
 - plan.md: fixed two instances of stale "domain directories" prose (flat numbered structure is the reality)
 - phase-1/summary.md: updated "What's Next" to reflect Phase 2 complete, Phase 3 next
 - Reference docs were clean — project context headers from Session 4 already current
+- Created README.md for GitHub repo (public-facing intro, status table, repo structure, key ideas)
+- Pushed all changes to GitHub
 
-### Next Session — Opus, Planning
+### Session 6 — Opus, Planning
 - **Task:** Plan Phase 3 (Group Session Prep). Design discussion guide, current vs. future state framework, debate topics from Phase 2 scaffolds, prioritization exercise, and packaging for sharing with the Pittsburgh group.
+- Read the Phase 2 scaffolds before planning — especially the overview doc and the Build & Deliver + Strategy & Planning phases, which will likely generate the most debate.
+- Key output: `docs/planning/phase-3/` with session materials ready to share.
