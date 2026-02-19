@@ -15,9 +15,9 @@ This isn't an app build. Each phase produces thinking artifacts, frameworks, and
 **Goal:** Establish a shared, honest baseline of the current PDLC and where AI actually impacts it.
 
 **Artifacts produced:**
-- [x] `docs/baseline/pdlc-standard-mapping.md` — 9-phase PDLC with roles, times, bottlenecks
-- [x] `docs/baseline/pdlc-mermaid-charts.md` — 5 visual charts (flow, gantt, pie, compression, parallel)
-- [x] `docs/baseline/ai-impact-analysis.md` — 3-category impact analysis + prioritized focus areas
+- [x] [docs/baseline/pdlc-standard-mapping.md](baseline/pdlc-standard-mapping.md) — 9-phase PDLC with roles, times, bottlenecks
+- [x] [docs/baseline/pdlc-mermaid-charts.md](baseline/pdlc-mermaid-charts.md) — 5 visual charts (flow, gantt, pie, compression, parallel)
+- [x] [docs/baseline/ai-impact-analysis.md](baseline/ai-impact-analysis.md) — 3-category impact analysis + prioritized focus areas
 
 **Key findings:**
 - Build went from 20% of cycle time to 5%. Total delivery only improved ~20%.
@@ -31,7 +31,7 @@ This isn't an app build. Each phase produces thinking artifacts, frameworks, and
 
 **Goal:** For each phase of the full 14-phase AI-native PDLC, scaffold a concrete solution approach. Organized by domain (owner/audience), not just the delivery pipeline. Not fully fleshed out — just enough structure to discuss with the group and prioritize.
 
-**Input:** `docs/full-pdlc-ai-native-brief.md` — expanded 14-phase lifecycle with AI-native approaches, three big shifts, and open questions.
+**Input:** [docs/full-pdlc-ai-native-brief.md](full-pdlc-ai-native-brief.md) — expanded 14-phase lifecycle with AI-native approaches, three big shifts, and open questions.
 
 ### Structure
 
@@ -204,7 +204,7 @@ This is arguably the hardest unsolved problem and potentially the project's most
 
 **Build path:** Don't build the orchestrator first. Build one vertical slice: Requirements → Build → Review, connected by structured artifacts. Validate the artifact schema and context retrieval patterns on real work, then extend.
 
-**Full analysis:** `docs/context-pipeline-architecture.md`
+**Full analysis:** [docs/context-pipeline-architecture.md](context-pipeline-architecture.md)
 
 ---
 
