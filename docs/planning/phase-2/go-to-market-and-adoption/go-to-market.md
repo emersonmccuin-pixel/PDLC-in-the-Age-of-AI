@@ -33,11 +33,11 @@ since Phase 2          brief (hours)         (hours-1 day)        (or before)
 
    | Phase | What Gets Added |
    |-------|----------------|
-   | Phase 2 (Requirements) | User problem, value proposition, target segments, key decisions |
-   | Phase 3 (Design) | UX rationale, screenshots, design decisions, accessibility notes |
-   | Phase 4 (Build) | Technical decisions, API docs, architecture notes, integration details |
-   | Phase 6 (QA) | Known limitations, edge cases, performance characteristics |
-   | Phase 7 (Staging) | Final screenshots, release notes draft, migration guide |
+   | [Phase 2](../strategy-and-planning/requirements-and-specification.md) (Requirements) | User problem, value proposition, target segments, key decisions |
+   | [Phase 3](../build-and-deliver/design.md) (Design) | UX rationale, screenshots, design decisions, accessibility notes |
+   | [Phase 4](../build-and-deliver/implementation.md) (Build) | Technical decisions, API docs, architecture notes, integration details |
+   | [Phase 6](../build-and-deliver/qa-and-testing.md) (QA) | Known limitations, edge cases, performance characteristics |
+   | [Phase 7](../build-and-deliver/staging.md) (Staging) | Final screenshots, release notes draft, migration guide |
 
    By launch, this brief contains everything marketing needs — organized, structured, and sourced.
 
@@ -160,3 +160,14 @@ From the brief:
 | **Marketing draft time** | Hours from brief to complete drafts | < 4 hours AI + 1 day human refinement |
 | **Customer awareness** | % of target segment aware of new feature within 1 week | Increase by 30%+ (faster, targeted communication) |
 | **Sales enablement gap** | Days between launch and sales team having materials | 0 days (materials ready at launch) |
+
+---
+
+## Navigation
+
+| Previous | Overview | Next |
+|----------|----------|------|
+| [Phase 8: Release](../build-and-deliver/release.md) | [Phase 2 Overview](../overview.md) | [Phase 10: Monitoring & Feedback](../operate-and-evolve/monitoring-and-feedback.md) |
+
+### Related Documents
+- [Full AI-Native PDLC Brief](../../../full-pdlc-ai-native-brief.md) — GTM as a new addition beyond the original 9-phase model

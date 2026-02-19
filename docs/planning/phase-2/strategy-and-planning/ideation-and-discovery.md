@@ -87,7 +87,7 @@ AI pre-research     -->  Humans react     -->  AI refines    -->  Validated
 
 ## Current State
 
-From Phase 1 baseline:
+From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
 - **Typical time:** 1-4 weeks
 - **Bottlenecks:** Scheduling alignment meetings, consensus-building, unclear ownership
 - **Key roles:** Product Manager, UX Researcher, Business Stakeholders
@@ -135,3 +135,14 @@ From Phase 1 baseline:
 | **Requirement rework rate** | % of requirements that change significantly after discovery | Decrease by 30%+ (better discovery = fewer surprises) |
 | **Acceptance criteria coverage** | % of features with testable acceptance criteria at discovery exit | 100% (vs. ~30% today) |
 | **Problem statement accuracy** | % of shipped features where the original problem statement held true | > 80% |
+
+---
+
+## Navigation
+
+| Previous | Overview | Next |
+|----------|----------|------|
+| [Phase 0: Portfolio Prioritization](portfolio-prioritization.md) | [Phase 2 Overview](../overview.md) | [Phase 2: Requirements & Specification](requirements-and-specification.md) |
+
+### Related Documents
+- [AI Impact Analysis](../../../baseline/ai-impact-analysis.md) — what AI can/can't do today

@@ -72,7 +72,7 @@ Tech debt:  AI tracks continuously  -->  AI proposes fixes  -->  Prioritized in 
      - Dependency staleness (days since last update)
      - Architecture drift (code that doesn't follow established patterns)
    - Each tech debt item has an estimated cost (risk of incident, performance impact, maintenance burden) and a proposed fix
-   - Tech debt is visible in portfolio prioritization (Phase 0) — not hidden until it explodes
+   - Tech debt is visible in portfolio prioritization ([Phase 0](../strategy-and-planning/portfolio-prioritization.md)) — not hidden until it explodes
 
 5. **Capacity Planning (AI, continuous)**
    - AI models resource usage against growth projections
@@ -165,3 +165,15 @@ From the brief:
 | **Dependency staleness** | Average days since last dependency update | < 30 days |
 | **AI maintenance PR approval rate** | % of AI-drafted PRs approved without significant changes | > 80% |
 | **System health score trend** | Weekly health score trending stable or improving | Stable at > 80/100 |
+
+---
+
+## Navigation
+
+| Previous | Overview | Next |
+|----------|----------|------|
+| [Phase 11: Customer Success](../go-to-market-and-adoption/customer-success.md) | [Phase 2 Overview](../overview.md) | [Phase 13: Sunset & Deprecation](sunset-and-deprecation.md) |
+
+### Related Documents
+- [Context Pipeline Architecture](../../../context-pipeline-architecture.md) — ops as a context consumer
+- [Brownfield SWE Process](../../../references/brownfield-swe-process.md) — real-world ops workflow

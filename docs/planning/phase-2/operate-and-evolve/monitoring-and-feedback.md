@@ -61,7 +61,7 @@ anomaly              + correlates        (auto-file,              (hours)
    - Feedback automatically tagged and routed to the relevant product/engineering owner
 
 5. **Portfolio Feedback Loop (automatic)**
-   - Monitoring data feeds directly back to Phase 0 (portfolio prioritization):
+   - Monitoring data feeds directly back to [Phase 0](../strategy-and-planning/portfolio-prioritization.md) (portfolio prioritization):
      - Features causing excessive support tickets get flagged for improvement or sunset
      - Features with declining usage get flagged for investigation
      - Pain points surfacing in support data become initiative candidates
@@ -103,7 +103,7 @@ anomaly              + correlates        (auto-file,              (hours)
 
 ## Current State
 
-From Phase 1 baseline:
+From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
 - **Typical approach:** Ongoing but passive. Wait for bug reports. Check dashboards manually.
 - **Bottlenecks:** Feedback loop speed, prioritization against new work
 - **Key roles:** Product Manager, Engineering, Support
@@ -153,3 +153,14 @@ From Phase 1 baseline:
 | **Auto-filing accuracy** | % of auto-filed tickets that are valid (not false positives) | > 85% |
 | **Feedback loop time** | Days from production issue to portfolio signal | < 1 day (vs. weeks/months) |
 | **Feature health coverage** | % of features with weekly AI health reports | 100% of features launched in last 6 months |
+
+---
+
+## Navigation
+
+| Previous | Overview | Next |
+|----------|----------|------|
+| [Phase 9: Go-to-Market](../go-to-market-and-adoption/go-to-market.md) | [Phase 2 Overview](../overview.md) | [Phase 11: Customer Success](../go-to-market-and-adoption/customer-success.md) |
+
+### Related Documents
+- [Context Pipeline Architecture](../../../context-pipeline-architecture.md) — monitoring feeds back into the context pipeline

@@ -77,7 +77,7 @@ feature health       sunset candidates      analysis + plan          (keep/sunse
 
 ## Implementation Example
 
-**Scenario:** The application has a "Classic Dashboard" view that was the default before the new customizable dashboard (Phase 9 launch). It's been 6 months since the new dashboard shipped.
+**Scenario:** The application has a "Classic Dashboard" view that was the default before the new customizable dashboard ([Phase 9](../go-to-market-and-adoption/go-to-market.md) launch). It's been 6 months since the new dashboard shipped.
 
 **What happens:**
 
@@ -165,3 +165,14 @@ From the brief:
 | **Code removed** | Lines of code removed via sunset vs. added via new features | Track ratio (should approach 1:1 over time) |
 | **Customer impact incidents** | Issues caused by feature removal | Near-zero (phased approach + verification) |
 | **Migration success rate** | % of affected users who successfully migrate before removal | > 95% |
+
+---
+
+## Navigation
+
+| Previous | Overview | Next |
+|----------|----------|------|
+| [Phase 12: Operations & Maintenance](operations-and-maintenance.md) | [Phase 2 Overview](../overview.md) | *(none — last phase)* |
+
+### Related Documents
+- [Full AI-Native PDLC Brief](../../../full-pdlc-ai-native-brief.md) — sunset as a new addition

@@ -77,7 +77,7 @@ When building is nearly free, portfolio governance becomes critical:
 
 ## Current State
 
-From Phase 1 baseline:
+From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
 - Portfolio prioritization was not part of the original 9-phase mapping (it happens "before" the delivery pipeline)
 - Most organizations run quarterly or annual planning cycles
 - Decisions are based on executive intuition, stale data, and political dynamics
@@ -125,3 +125,14 @@ From Phase 1 baseline:
 | **Portfolio freshness** | Average age of data used in priority decisions | < 1 week (vs. 1-3 months) |
 | **Abandoned initiatives** | % of approved work that gets killed mid-build | Decrease (better upfront prioritization) |
 | **Overlap incidents** | Duplicate/conflicting tools or features built | Zero tolerance |
+
+---
+
+## Navigation
+
+| Previous | Overview | Next |
+|----------|----------|------|
+| *(none — first phase)* | [Phase 2 Overview](../overview.md) | [Phase 1: Ideation & Discovery](ideation-and-discovery.md) |
+
+### Related Documents
+- [AI Impact Analysis — Focus Areas](../../../baseline/ai-impact-analysis.md) — prioritization criteria from Phase 1
