@@ -161,5 +161,5 @@ That's a fundamentally different question, and it requires input from everyone i
 
 ### Where This Feeds Forward
 - [Phase 2 Overview](../planning/phase-2/overview.md) — solutions scaffolded from these findings
-- [Phase 5: Code Review](../planning/phase-2/build-and-deliver/code-review.md) — directly addresses "review got worse"
-- [Phase 4: Implementation](../planning/phase-2/build-and-deliver/implementation.md) — addresses the already-collapsed build phase
+- [Phase 5: Code Review](../planning/phase-2/05-code-review.md) — directly addresses "review got worse"
+- [Phase 4: Implementation](../planning/phase-2/04-implementation.md) — addresses the already-collapsed build phase

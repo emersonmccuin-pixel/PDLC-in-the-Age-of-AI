@@ -28,7 +28,7 @@ from test specs         to pass tests         (security, style,     submitted
 ### Process Design
 
 1. **Test Suite Generation (AI, first)**
-   - AI generates the full test suite from test specifications produced in [Phase 2](../strategy-and-planning/requirements-and-specification.md) and [Phase 3](design.md)
+   - AI generates the full test suite from test specifications produced in [Phase 2](02-requirements-and-specification.md) and [Phase 3](03-design.md)
    - Unit tests, integration tests, component tests — all written before implementation code
    - Tests initially fail (red). Implementation makes them pass (green).
    - AI identifies missing test specs: "acceptance criterion 4 has no corresponding test spec — should I generate one or flag for PM?"
@@ -102,7 +102,7 @@ from test specs         to pass tests         (security, style,     submitted
 
 ## Current State
 
-From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
+From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 - **Typical time:** 1-5 days with AI assistance (already collapsed from 2-4 weeks)
 - **Bottlenecks:** Ambiguous tickets, blocked dependencies, environment issues
 - **Key roles:** Software Engineers, Tech Lead
@@ -158,8 +158,8 @@ From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
 
 | Previous | Overview | Next |
 |----------|----------|------|
-| [Phase 3: Design](design.md) | [Phase 2 Overview](../overview.md) | [Phase 5: Code Review](code-review.md) |
+| [Phase 3: Design](03-design.md) | [Phase 2 Overview](overview.md) | [Phase 5: Code Review](05-code-review.md) |
 
 ### Related Documents
-- [AI Impact Analysis](../../../baseline/ai-impact-analysis.md) — build is the phase AI collapsed most
-- [Brownfield SWE Process](../../../references/brownfield-swe-process.md) — real-world implementation workflow
+- [AI Impact Analysis](../../baseline/ai-impact-analysis.md) — build is the phase AI collapsed most
+- [Brownfield SWE Process](../../references/brownfield-swe-process.md) — real-world implementation workflow

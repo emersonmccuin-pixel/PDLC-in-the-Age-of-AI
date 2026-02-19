@@ -297,7 +297,7 @@ The group discussion (Phase 3) should include this framing. The question for the
 - [Full AI-Native PDLC Brief](full-pdlc-ai-native-brief.md) — the lifecycle this pipeline connects
 
 ### Key Phase Connections
-- [Phase 2: Requirements & Specification](planning/phase-2/strategy-and-planning/requirements-and-specification.md) — where structured artifacts originate
-- [Phase 4: Implementation](planning/phase-2/build-and-deliver/implementation.md) — the vertical slice starting point
-- [Phase 5: Code Review](planning/phase-2/build-and-deliver/code-review.md) — where context retrieval is most critical
-- [Phase 10: Monitoring & Feedback](planning/phase-2/operate-and-evolve/monitoring-and-feedback.md) — where lifecycle traceability is tested
+- [Phase 2: Requirements & Specification](planning/phase-2/02-requirements-and-specification.md) — where structured artifacts originate
+- [Phase 4: Implementation](planning/phase-2/04-implementation.md) — the vertical slice starting point
+- [Phase 5: Code Review](planning/phase-2/05-code-review.md) — where context retrieval is most critical
+- [Phase 10: Monitoring & Feedback](planning/phase-2/10-monitoring-and-feedback.md) — where lifecycle traceability is tested

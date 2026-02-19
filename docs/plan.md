@@ -40,24 +40,20 @@ Four domains, each owned by a different part of the organization. Each domain ge
 ```
 docs/planning/phase-2/
 +-- overview.md
-+-- strategy-and-planning/
-|   +-- portfolio-prioritization.md       (Phase 0)
-|   +-- ideation-and-discovery.md         (Phase 1)
-|   +-- requirements-and-specification.md (Phase 2)
-+-- build-and-deliver/
-|   +-- design.md                         (Phase 3)
-|   +-- implementation.md                 (Phase 4)
-|   +-- code-review.md                    (Phase 5)
-|   +-- qa-and-testing.md                 (Phase 6)
-|   +-- staging.md                        (Phase 7)
-|   +-- release.md                        (Phase 8)
-+-- go-to-market-and-adoption/
-|   +-- go-to-market.md                   (Phase 9)
-|   +-- customer-success.md               (Phase 11)
-+-- operate-and-evolve/
-|   +-- monitoring-and-feedback.md        (Phase 10)
-|   +-- operations-and-maintenance.md     (Phase 12)
-|   +-- sunset-and-deprecation.md         (Phase 13)
++-- 00-portfolio-prioritization.md
++-- 01-ideation-and-discovery.md
++-- 02-requirements-and-specification.md
++-- 03-design.md
++-- 04-implementation.md
++-- 05-code-review.md
++-- 06-qa-and-testing.md
++-- 07-staging.md
++-- 08-release.md
++-- 09-go-to-market.md
++-- 10-monitoring-and-feedback.md
++-- 11-customer-success.md
++-- 12-operations-and-maintenance.md
++-- 13-sunset-and-deprecation.md
 ```
 
 ### Domain Ownership

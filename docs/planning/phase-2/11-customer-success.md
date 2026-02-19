@@ -33,7 +33,7 @@ Feature ships  -->  AI tracks         -->  AI identifies    -->  AI triggers    
      - Who isn't using it (who should be but hasn't tried)
      - Who started and stopped (tried it, abandoned it)
      - Usage depth (surface-level vs. power user patterns)
-   - AI compares adoption against targets set during [Phase 2](../strategy-and-planning/requirements-and-specification.md) (acceptance criteria included adoption hypotheses)
+   - AI compares adoption against targets set during [Phase 2](02-requirements-and-specification.md) (acceptance criteria included adoption hypotheses)
    - **This is not generic analytics.** It's per-feature, tied to the original problem statement and success criteria.
 
 2. **AI-Generated Onboarding Content (automatic, from GTM brief)**
@@ -63,7 +63,7 @@ Feature ships  -->  AI tracks         -->  AI identifies    -->  AI triggers    
      - "Dashboard customization reduced average dashboard interaction time by 18%"
      - "Feature adoption: 34% of daily active users customized their layout within 2 weeks"
      - "Support tickets about 'finding metrics' decreased 22% since launch"
-   - Impact data feeds back to [Phase 0](../strategy-and-planning/portfolio-prioritization.md) (portfolio prioritization): features that deliver measurable value get more investment; features that don't get flagged
+   - Impact data feeds back to [Phase 0](00-portfolio-prioritization.md) (portfolio prioritization): features that deliver measurable value get more investment; features that don't get flagged
 
 ---
 
@@ -166,7 +166,7 @@ From the brief:
 
 | Previous | Overview | Next |
 |----------|----------|------|
-| [Phase 10: Monitoring & Feedback](../operate-and-evolve/monitoring-and-feedback.md) | [Phase 2 Overview](../overview.md) | [Phase 12: Operations & Maintenance](../operate-and-evolve/operations-and-maintenance.md) |
+| [Phase 10: Monitoring & Feedback](10-monitoring-and-feedback.md) | [Phase 2 Overview](overview.md) | [Phase 12: Operations & Maintenance](12-operations-and-maintenance.md) |
 
 ### Related Documents
-- [Full AI-Native PDLC Brief](../../../full-pdlc-ai-native-brief.md) — customer success as a new addition
+- [Full AI-Native PDLC Brief](../../full-pdlc-ai-native-brief.md) — customer success as a new addition

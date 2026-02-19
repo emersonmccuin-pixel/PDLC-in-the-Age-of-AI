@@ -100,7 +100,7 @@ output (hours)           (same day)           GTM brief seed        full context
 
 ## Current State
 
-From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
+From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 - **Typical time:** 1-3 weeks
 - **Bottlenecks:** PRD review cycles, requirement ambiguity, ticket review/commenting (can take DAYS just for PM review)
 - **Key roles:** Product Manager, Tech Lead, Designer, Engineering Manager
@@ -126,7 +126,7 @@ From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
 |------|-------------|-----------|
 | **Product Manager** | Writes PRD from scratch, creates tickets, runs review cycles | Directs AI, validates PRD, makes strategic decisions, resolves ambiguities |
 | **Tech Lead** | Reviews PRD for feasibility, estimates effort | Validates AI codebase cross-references, reviews technical recommendations |
-| **QA Engineer** | Writes test plans later ([Phase 6](../build-and-deliver/qa-and-testing.md)) | Reviews test specifications now (Phase 2) — shift-left |
+| **QA Engineer** | Writes test plans later ([Phase 6](06-qa-and-testing.md)) | Reviews test specifications now (Phase 2) — shift-left |
 | **Designer** | Receives requirements, designs from spec | Co-reviews PRD, ensures requirements are designable |
 
 ---
@@ -158,7 +158,7 @@ From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
 
 | Previous | Overview | Next |
 |----------|----------|------|
-| [Phase 1: Ideation & Discovery](ideation-and-discovery.md) | [Phase 2 Overview](../overview.md) | [Phase 3: Design](../build-and-deliver/design.md) |
+| [Phase 1: Ideation & Discovery](01-ideation-and-discovery.md) | [Phase 2 Overview](overview.md) | [Phase 3: Design](03-design.md) |
 
 ### Related Documents
-- [Context Pipeline Architecture](../../../context-pipeline-architecture.md) — how requirements flow to downstream phases
+- [Context Pipeline Architecture](../../context-pipeline-architecture.md) — how requirements flow to downstream phases

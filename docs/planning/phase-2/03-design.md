@@ -97,7 +97,7 @@ multiple variants        & directs              interaction +         + test spe
 
 ## Current State
 
-From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
+From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 - **Typical time:** 1-3 weeks
 - **Bottlenecks:** Design review loops, stakeholder feedback cycles, pixel-level debates
 - **Key roles:** UX Designer, UI Designer, Product Manager, Frontend Engineer
@@ -114,7 +114,7 @@ From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
 | **Accessibility** | Audited late (if at all) | Checked per variant during generation |
 | **Design system compliance** | Manual check | AI validates against design system automatically |
 | **Interaction specs** | Designer writes manually, often incomplete | AI generates comprehensive specs from design direction |
-| **Test specs** | Written by QA during [Phase 6](qa-and-testing.md) | Generated here from design specs — shift-left |
+| **Test specs** | Written by QA during [Phase 6](06-qa-and-testing.md) | Generated here from design specs — shift-left |
 | **Marketing assets** | Created post-launch | Screenshots and UX narrative added to GTM brief now |
 
 ### Role Shifts
@@ -154,7 +154,7 @@ From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
 
 | Previous | Overview | Next |
 |----------|----------|------|
-| [Phase 2: Requirements & Specification](../strategy-and-planning/requirements-and-specification.md) | [Phase 2 Overview](../overview.md) | [Phase 4: Implementation](implementation.md) |
+| [Phase 2: Requirements & Specification](02-requirements-and-specification.md) | [Phase 2 Overview](overview.md) | [Phase 4: Implementation](04-implementation.md) |
 
 ### Related Documents
-- [PDLC Standard Mapping](../../../baseline/pdlc-standard-mapping.md) — traditional design phase baseline
+- [PDLC Standard Mapping](../../baseline/pdlc-standard-mapping.md) — traditional design phase baseline

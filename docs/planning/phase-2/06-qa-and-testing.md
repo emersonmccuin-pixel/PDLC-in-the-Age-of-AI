@@ -4,7 +4,7 @@
 
 **QA should validate that the system works as intended, not discover whether it was tested.**
 
-In the traditional PDLC, QA is where testing begins. In the AI-native PDLC, QA is where testing is verified. Test specs were generated in [Phase 2](../strategy-and-planning/requirements-and-specification.md), UI test specs in [Phase 3](design.md), and the full test suite was written and passing in [Phase 4](implementation.md). QA's job is not to execute scripts — it's to challenge assumptions, explore edges, and apply human judgment about whether the product feels right.
+In the traditional PDLC, QA is where testing begins. In the AI-native PDLC, QA is where testing is verified. Test specs were generated in [Phase 2](02-requirements-and-specification.md), UI test specs in [Phase 3](03-design.md), and the full test suite was written and passing in [Phase 4](04-implementation.md). QA's job is not to execute scripts — it's to challenge assumptions, explore edges, and apply human judgment about whether the product feels right.
 
 ---
 
@@ -95,7 +95,7 @@ passing)            visual + perf           (edge cases,           findings +
 
 ## Current State
 
-From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
+From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 - **Typical time:** 1-3 weeks
 - **Bottlenecks:** QA team bandwidth, environment instability, unclear acceptance criteria, bug-fix-retest cycles
 - **Key roles:** QA Engineers, Product Manager (UAT)
@@ -156,7 +156,7 @@ From AI impact analysis:
 
 | Previous | Overview | Next |
 |----------|----------|------|
-| [Phase 5: Code Review](code-review.md) | [Phase 2 Overview](../overview.md) | [Phase 7: Staging](staging.md) |
+| [Phase 5: Code Review](05-code-review.md) | [Phase 2 Overview](overview.md) | [Phase 7: Staging](07-staging.md) |
 
 ### Related Documents
-- [PDLC Standard Mapping](../../../baseline/pdlc-standard-mapping.md) — traditional QA baseline
+- [PDLC Standard Mapping](../../baseline/pdlc-standard-mapping.md) — traditional QA baseline

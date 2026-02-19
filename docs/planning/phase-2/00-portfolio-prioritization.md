@@ -77,7 +77,7 @@ When building is nearly free, portfolio governance becomes critical:
 
 ## Current State
 
-From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
+From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 - Portfolio prioritization was not part of the original 9-phase mapping (it happens "before" the delivery pipeline)
 - Most organizations run quarterly or annual planning cycles
 - Decisions are based on executive intuition, stale data, and political dynamics
@@ -132,7 +132,7 @@ From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
 
 | Previous | Overview | Next |
 |----------|----------|------|
-| *(none — first phase)* | [Phase 2 Overview](../overview.md) | [Phase 1: Ideation & Discovery](ideation-and-discovery.md) |
+| *(none — first phase)* | [Phase 2 Overview](overview.md) | [Phase 1: Ideation & Discovery](01-ideation-and-discovery.md) |
 
 ### Related Documents
-- [AI Impact Analysis — Focus Areas](../../../baseline/ai-impact-analysis.md) — prioritization criteria from Phase 1
+- [AI Impact Analysis — Focus Areas](../../baseline/ai-impact-analysis.md) — prioritization criteria from Phase 1

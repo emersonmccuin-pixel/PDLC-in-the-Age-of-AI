@@ -9,26 +9,26 @@ This document maps the full 14-phase AI-native PDLC, organized by domain. It ide
 ## Phase Index
 
 ### Strategy & Planning
-- [Phase 0: Portfolio Prioritization](strategy-and-planning/portfolio-prioritization.md)
-- [Phase 1: Ideation & Discovery](strategy-and-planning/ideation-and-discovery.md)
-- [Phase 2: Requirements & Specification](strategy-and-planning/requirements-and-specification.md)
+- [Phase 0: Portfolio Prioritization](00-portfolio-prioritization.md)
+- [Phase 1: Ideation & Discovery](01-ideation-and-discovery.md)
+- [Phase 2: Requirements & Specification](02-requirements-and-specification.md)
 
 ### Build & Deliver
-- [Phase 3: Design](build-and-deliver/design.md)
-- [Phase 4: Implementation](build-and-deliver/implementation.md)
-- [Phase 5: Code Review](build-and-deliver/code-review.md)
-- [Phase 6: QA & Testing](build-and-deliver/qa-and-testing.md)
-- [Phase 7: Staging](build-and-deliver/staging.md)
-- [Phase 8: Release](build-and-deliver/release.md)
+- [Phase 3: Design](03-design.md)
+- [Phase 4: Implementation](04-implementation.md)
+- [Phase 5: Code Review](05-code-review.md)
+- [Phase 6: QA & Testing](06-qa-and-testing.md)
+- [Phase 7: Staging](07-staging.md)
+- [Phase 8: Release](08-release.md)
 
 ### Go-to-Market & Adoption
-- [Phase 9: Go-to-Market](go-to-market-and-adoption/go-to-market.md)
-- [Phase 11: Customer Success & Adoption](go-to-market-and-adoption/customer-success.md)
+- [Phase 9: Go-to-Market](09-go-to-market.md)
+- [Phase 11: Customer Success & Adoption](11-customer-success.md)
 
 ### Operate & Evolve
-- [Phase 10: Monitoring & Feedback](operate-and-evolve/monitoring-and-feedback.md)
-- [Phase 12: Operations & Maintenance](operate-and-evolve/operations-and-maintenance.md)
-- [Phase 13: Sunset & Deprecation](operate-and-evolve/sunset-and-deprecation.md)
+- [Phase 10: Monitoring & Feedback](10-monitoring-and-feedback.md)
+- [Phase 12: Operations & Maintenance](12-operations-and-maintenance.md)
+- [Phase 13: Sunset & Deprecation](13-sunset-and-deprecation.md)
 
 ---
 

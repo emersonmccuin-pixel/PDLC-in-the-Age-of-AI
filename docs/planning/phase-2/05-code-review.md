@@ -30,7 +30,7 @@ PR submitted  -->  AI pre-review   -->  Risk triage    -->  Human review
 
 1. **AI Pre-Review (instant, mandatory)**
    Before any human reviewer is notified, AI has already:
-   - Verified all tests pass (from the test-first suite in [Phase 4](implementation.md))
+   - Verified all tests pass (from the test-first suite in [Phase 4](04-implementation.md))
    - Checked for security vulnerabilities: injection, auth bypasses, data exposure
    - Validated style and convention compliance
    - Identified logic issues: dead code, unreachable branches, off-by-one patterns
@@ -95,7 +95,7 @@ PR submitted  -->  AI pre-review   -->  Risk triage    -->  Human review
 
 ## Current State
 
-From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
+From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 - **Typical time:** 3-14 days (often weeks)
 - **Bottlenecks:** Reviewer bandwidth, context switching, sequential approval gates (2-3 required approvals), review-revise-re-review loops
 - **Key roles:** Peer Engineers (2-3 reviewers), Tech Lead
@@ -154,8 +154,8 @@ From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
 
 | Previous | Overview | Next |
 |----------|----------|------|
-| [Phase 4: Implementation](implementation.md) | [Phase 2 Overview](../overview.md) | [Phase 6: QA & Testing](qa-and-testing.md) |
+| [Phase 4: Implementation](04-implementation.md) | [Phase 2 Overview](overview.md) | [Phase 6: QA & Testing](06-qa-and-testing.md) |
 
 ### Related Documents
-- [AI Impact Analysis](../../../baseline/ai-impact-analysis.md) — review is the phase AI made *worse*
-- [Context Pipeline Architecture](../../../context-pipeline-architecture.md) — how review context links to requirements
+- [AI Impact Analysis](../../baseline/ai-impact-analysis.md) — review is the phase AI made *worse*
+- [Context Pipeline Architecture](../../context-pipeline-architecture.md) — how review context links to requirements

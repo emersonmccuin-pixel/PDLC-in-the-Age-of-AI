@@ -97,7 +97,7 @@ staging approval       rollout                 + auto-rollback        success
 
 ## Current State
 
-From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
+From [Phase 1 baseline](../../baseline/pdlc-standard-mapping.md):
 - **Typical time:** 1-3 days
 - **Bottlenecks:** Release train scheduling, change advisory board, deploy freezes
 - **Key roles:** DevOps, On-call Engineer, Engineering Manager
@@ -115,7 +115,7 @@ From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
 | **Rollback** | Human decision + manual execution | Automatic on anomaly detection (human can override) |
 | **Communication** | Manual Slack posts, email chains | AI posts status with context to relevant channels |
 | **Deploy window** | Scheduled days/weeks in advance | Not needed — deploys are continuous and automated |
-| **Change advisory board** | Required for all production changes | Replaced by risk triage ([Phase 5](code-review.md)) — only high-risk changes need human approval at deploy |
+| **Change advisory board** | Required for all production changes | Replaced by risk triage ([Phase 5](05-code-review.md)) — only high-risk changes need human approval at deploy |
 
 ### Role Shifts
 
@@ -155,7 +155,7 @@ From [Phase 1 baseline](../../../baseline/pdlc-standard-mapping.md):
 
 | Previous | Overview | Next |
 |----------|----------|------|
-| [Phase 7: Staging](staging.md) | [Phase 2 Overview](../overview.md) | [Phase 9: Go-to-Market](../go-to-market-and-adoption/go-to-market.md) |
+| [Phase 7: Staging](07-staging.md) | [Phase 2 Overview](overview.md) | [Phase 9: Go-to-Market](09-go-to-market.md) |
 
 ### Related Documents
-- [PDLC Standard Mapping](../../../baseline/pdlc-standard-mapping.md) — traditional release gates
+- [PDLC Standard Mapping](../../baseline/pdlc-standard-mapping.md) — traditional release gates
