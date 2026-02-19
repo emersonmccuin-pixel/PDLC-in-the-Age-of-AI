@@ -11,9 +11,9 @@ Established a baseline mapping of the traditional PDLC, visualized it, and analy
 
 | Document | What It Covers |
 |----------|---------------|
-| `docs/pdlc-standard-mapping.md` | 9 PDLC phases with roles, times, bottlenecks, pre/post-AI comparison |
-| `docs/pdlc-mermaid-charts.md` | 5 Mermaid charts: flow, gantt, pie, compression, parallel possibilities |
-| `docs/ai-impact-analysis.md` | 3-category analysis (helps / doesn't help / makes worse), focus areas, research questions |
+| [PDLC Standard Mapping](../../baseline/pdlc-standard-mapping.md) | 9 PDLC phases with roles, times, bottlenecks, pre/post-AI comparison |
+| [Mermaid Charts](../../baseline/pdlc-mermaid-charts.md) | 5 Mermaid charts: flow, gantt, pie, compression, parallel possibilities |
+| [AI Impact Analysis](../../baseline/ai-impact-analysis.md) | 3-category analysis (helps / doesn't help / makes worse), focus areas, research questions |
 
 ## Key Findings
 
@@ -40,3 +40,14 @@ Established a baseline mapping of the traditional PDLC, visualized it, and analy
 ## What's Next
 
 Phase 2 scaffolds solution approaches for each of these areas.
+
+---
+
+## Navigation
+
+- [Back to Plan](../../plan.md)
+- **Next:** [Phase 2 Overview](../phase-2/overview.md)
+
+### Related Documents
+- [Full AI-Native PDLC Brief](../../full-pdlc-ai-native-brief.md) — expanded the 9-phase model to 14 phases based on these findings
+- [Context Pipeline Architecture](../../context-pipeline-architecture.md) — the implementation challenge that emerged from Phase 2
