@@ -115,3 +115,7 @@ Phase 3 — Group Session Prep (NOT STARTED)
 - Cross-linked baseline docs, brief, and context pipeline architecture
 - Converted plan.md artifact paths to navigable links
 - Added project context to reference documents
+- Restructured phase-2/ from 4 domain subdirectories to flat numbered files (00-13)
+
+### Next Session — Opus, Planning
+- **Task:** Plan Phase 3 (Group Session Prep). Design discussion guide, current vs. future state framework, debate topics from Phase 2 scaffolds, prioritization exercise, and packaging for sharing with the Pittsburgh group.
