@@ -182,3 +182,18 @@ AI has collapsed **build time** from weeks to hours/days. But build time was nev
 - If build is near-instant, should the feedback loop tighten to "ship smaller, ship constantly"?
 - What new risks does AI-speed development introduce that the current PDLC doesn't account for?
 - Can we separate "quality gates" from "calendar gates"?
+
+---
+
+## Navigation
+
+- [Back to Plan](../plan.md)
+- [Phase 1 Summary](../planning/phase-1/summary.md)
+
+### Related Baseline Documents
+- [Mermaid Charts](pdlc-mermaid-charts.md) — visual representations of this mapping
+- [AI Impact Analysis](ai-impact-analysis.md) — where AI helps and hurts across these phases
+
+### Where This Feeds Forward
+- [Phase 2 Overview](../planning/phase-2/overview.md) — solution scaffolds built on this baseline
+- [Full AI-Native PDLC Brief](../full-pdlc-ai-native-brief.md) — expanded from 9 to 14 phases based on gaps found here

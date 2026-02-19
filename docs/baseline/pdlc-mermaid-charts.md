@@ -200,3 +200,17 @@ These charts use [Mermaid](https://mermaid.js.org/) syntax. They render natively
 - [Mermaid Live Editor](https://mermaid.live/) for quick previews and PNG/SVG export
 
 For presentations, use the live editor to export as SVG/PNG.
+
+---
+
+## Navigation
+
+- [Back to Plan](../plan.md)
+- [Phase 1 Summary](../planning/phase-1/summary.md)
+
+### Related Baseline Documents
+- [PDLC Standard Mapping](pdlc-standard-mapping.md) — the data these charts visualize
+- [AI Impact Analysis](ai-impact-analysis.md) — analysis of the patterns shown here
+
+### Where This Feeds Forward
+- [Phase 2 Overview](../planning/phase-2/overview.md) — solution scaffolds addressing the bottlenecks shown here

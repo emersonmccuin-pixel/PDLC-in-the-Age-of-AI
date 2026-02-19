@@ -147,3 +147,19 @@ The real question isn't "how do we make developers faster?" — that's solved.
 The question is: **"How do we redesign the entire process for a world where building is nearly free?"**
 
 That's a fundamentally different question, and it requires input from everyone in the chain — not just developers.
+
+---
+
+## Navigation
+
+- [Back to Plan](../plan.md)
+- [Phase 1 Summary](../planning/phase-1/summary.md)
+
+### Related Baseline Documents
+- [PDLC Standard Mapping](pdlc-standard-mapping.md) — the phase structure this analysis covers
+- [Mermaid Charts](pdlc-mermaid-charts.md) — visual representation of compression and bottlenecks
+
+### Where This Feeds Forward
+- [Phase 2 Overview](../planning/phase-2/overview.md) — solutions scaffolded from these findings
+- [Phase 5: Code Review](../planning/phase-2/build-and-deliver/code-review.md) — directly addresses "review got worse"
+- [Phase 4: Implementation](../planning/phase-2/build-and-deliver/implementation.md) — addresses the already-collapsed build phase
