@@ -11,7 +11,7 @@ This project produces artifacts, frameworks, and eventually real systems to fix 
 - **Owner:** Emerson McCuin
 - **Working group:** Pittsburgh-based group of SWEs, product folks, and others from across the PDLC
 - **Repo:** https://github.com/emersonmccuin-pixel/PDLC-in-the-Age-of-AI
-- **Status:** Phases 1–2 complete. Phase 3: Context Pipeline Specification (in progress).
+- **Status:** Phases 1–2 complete. Phase 3: AI Safety Net — Business Requirements Test Harness (in progress).
 
 ## Session Protocol
 
@@ -40,8 +40,14 @@ This project produces artifacts, frameworks, and eventually real systems to fix 
 - `phases/overview.md` — Domain map, cross-cutting themes, 17 open questions, interdependency map
 - `phases/00-13-*.md` — 14 phase scaffold docs (flat numbered), one per phase. Three-layer structure: Principle → Pattern → Implementation Example.
 
+### Business Requirements Test Harness (Phase 3, in progress)
+- Reference implementation built against HAAS Alert CIA Re-Write (`E:\Claude Code Projects\HAAS Alert\CIA Re-Write`)
+- 12 business requirement test docs (~200+ test cases), 2 executable RSpec specs (62 passing), CI/CD integration doc
+- Pattern: plain English business rules → Given/When/Then cases → executable specs
+- Being generalized into a reusable framework for any team adopting AI
+
 ### Context Pipeline
-- `context-pipeline.md` — The hardest unsolved problem: how context flows between phases. Three-component architecture and build path.
+- `context-pipeline.md` — The hardest unsolved problem: how context flows between phases. Three-component architecture and build path. (Phase 4, planned.)
 
 ## Conventions
 

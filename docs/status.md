@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Phase 3 — Context Pipeline Specification (IN PROGRESS)
+Phase 3 — AI Safety Net: Business Requirements Test Harness (IN PROGRESS)
 
 ## Task Tracker
 
@@ -10,18 +10,23 @@ Phase 3 — Context Pipeline Specification (IN PROGRESS)
 *Artifacts archived to `archive/baseline/`.*
 
 ### Phase 2 — Solution Scaffolding (COMPLETE)
-*14 phase scaffolds + overview in `docs/planning/phase-2/`.*
+*14 phase scaffolds + overview in `phases/`.*
 
-### Phase 3 — Context Pipeline Specification (IN PROGRESS)
-- [ ] Define artifact schema (types, fields, linking rules, versioning)
-- [ ] Define Requirements agent contract (inputs, outputs, decision logic)
-- [ ] Define Build agent contract (inputs, outputs, decision logic)
-- [ ] Define Review agent contract (inputs, outputs, decision logic)
-- [ ] Define orchestration logic for each handoff
-- [ ] Write end-to-end trace using R2R heatmap example
+### Phase 3 — AI Safety Net: Business Requirements Test Harness (IN PROGRESS)
+- [ ] Document the pattern as a reusable framework (not HAAS-specific)
+- [ ] Define what a "business requirements test harness" looks like for any team adopting AI
+- [ ] Write methodology: how to identify critical business rules from an existing codebase
+- [ ] Write methodology: how to translate business rules into executable tests
+- [ ] Harden existing tests (random-seed runs, integration with full suite, edge cases)
+- [ ] Expand coverage: convert remaining 10 business test docs into executable specs
+- [ ] Document findings and failure modes (what broke, what surprised us, what the tests caught)
+- [ ] Write the PDLC framework doc: where this fits, why it matters, how teams adopt it
 
-### Phase 4 — Prototype (TODO)
-*Tasks TBD after Phase 3*
+### Phase 4 — Context Pipeline Specification (PLANNED)
+*Tasks defined in plan.md. Starts after Phase 3.*
+
+### Phase 5 — Prototype (PLANNED)
+*Tasks TBD after Phase 4.*
 
 ## Session Log
 
@@ -115,3 +120,29 @@ Phase 3 — Context Pipeline Specification (IN PROGRESS)
 - Updated all internal links: phase docs (`../../` → `../`), context-pipeline.md, README.md, CLAUDE.md, docs/plan.md
 - Verified all links resolve — only false positives were example text in the restructure plan doc itself
 - Committed and pushed to GitHub
+
+### Session 8 — 2026-02-20 (Opus, Build)
+- **Scope:** Applied PDLC quality gate concepts to a real system — built a business requirements test harness for the HAAS Alert dashboard (`E:\Claude Code Projects\HAAS Alert\CIA Re-Write`)
+- **Context:** Reviewed existing test harness plan (`PLANNING/BUSINESS-TEST-HARNESS-PLAN.md`). Decided tests should run post-deploy to DEV (not in CI), targeting established features (not new CIA work). This validates that existing behavior isn't broken when new code merges.
+- **Codebase crawl:** Three parallel agents crawled both repos (dashboard backend + dashboard-fe frontend). Mapped 14 backend domains (controllers, policies, services, queries, serializers, models) and 11 frontend feature areas (routes, views, RTK Query services, Redux slices). Excluded CIA features — only established, long-running features.
+- **Business test documentation:** Wrote 12 business requirement test docs to `PLANNING/business-tests/`:
+  - auth-sessions, users, things, events-locations, closures, alerting-zones, exclusion-zones, organizations, reports-exports, trips, hazards, api-keys
+  - Each doc: plain English business rules, Given/When/Then test cases, "why this matters" explanations, human validation items
+  - ~200+ test cases documented across all domains
+- **Executable tests:** Wrote 2 RSpec spec files in `dashboard/spec/requests/api/business/`:
+  - `auth_business_spec.rb` — 25 tests (login, tokens, lockout, password reset, unauthenticated access)
+  - `things_business_spec.rb` — 37 tests (asset list, multi-org isolation, updates, associations, response shape)
+  - All tagged `business: true` for selective execution
+- **Test run results:** 62 tests, 0 failures. Fixed 5 test assumption mismatches during iteration (cross-org returns 422 not 404, permission policy allows broader access than expected, token revoke test was sending wrong param). All findings documented in test comments.
+- **CI/CD integration:** Wrote `PLANNING/business-tests/CI-CD-INTEGRATION.md` — how to wire business tests into Bitbucket pipeline as post-deploy step, the run command, file index.
+- **Finding:** Things list endpoint returns 200 for users with no thing-specific permissions — flagged for product team review.
+- **PDLC relevance:** This is a concrete implementation of Phase 6 (Code Review) and Phase 7 (QA) concepts from the scaffolds — machine-enforceable quality gates that check business promises, not just technical correctness. The three-layer model applies: business rules (principle) → test cases (pattern) → RSpec/Playwright specs (implementation).
+- **Next session:** Run full battery of hardening tests — repeated random-seed runs, integration with full test suite, edge case review. Then human review of business test docs.
+
+### Session 9 — 2026-02-20 (Opus, Planning)
+- **Reprioritization:** Elevated the business requirements test harness from a Session 8 side-project to the project's current top priority (new Phase 3)
+- The test harness isn't a detour from PDLC work — it IS the PDLC work. It's the concrete answer to "what changes when AI writes most of the code?" You need machine-enforceable business truth checks that don't depend on who wrote the code.
+- Bumped Context Pipeline Specification from Phase 3 → Phase 4, Prototype from Phase 4 → Phase 5
+- Updated plan.md with full Phase 3 definition: thesis, rationale, existing work, 8 tasks
+- Updated status.md task tracker to reflect new phase structure
+- **Key framing:** When building is nearly free, the critical investment shifts from "how to build" to "how to prove what we built doesn't break what already works." This is the first artifact the project produces that another team could use tomorrow.

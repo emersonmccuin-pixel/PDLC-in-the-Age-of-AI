@@ -41,11 +41,43 @@ Cross-cutting themes: shift-left testing, parallel GTM stream, criteria gates re
 
 ---
 
-## Phase 3 — Context Pipeline Specification (IN PROGRESS)
+## Phase 3 — AI Safety Net: Business Requirements Test Harness (IN PROGRESS)
+
+**Goal:** Solve the most immediate problem in AI-augmented development: how do you ensure AI-generated code doesn't break existing functionality that works?
+
+**The thesis:** When building is nearly free, the critical investment shifts from "how to build" to "how to prove what we built doesn't break what already works." AI can write code fast, but nobody trusts it to ship without proof. Business requirements tests are the quality gate that makes AI-generated code shippable. This is the first concrete, reusable artifact the project produces — something you could hand to another team and they could use tomorrow.
+
+**Why this comes before the context pipeline:** The context pipeline is the long-term architecture. But teams adopting AI today need a safety net now. A business requirements test harness is:
+- Immediately useful (not theoretical)
+- A concrete implementation of Phase 6 (Code Review) and Phase 7 (QA) concepts from the scaffolds
+- A real example of "AI-enforced quality gates" — the cross-cutting theme from Phase 2
+- The foundation that makes everything else trustworthy
+
+**What exists (from Session 8, applied to HAAS Alert CIA Re-Write):**
+- 12 business requirement test docs (~200+ test cases) covering auth, users, assets, events, closures, alerting zones, exclusion zones, orgs, reports, trips, hazards, API keys
+- 2 executable RSpec spec files (62 passing tests) for auth and things/assets
+- CI/CD integration doc for post-deploy execution
+- Pattern: plain English business rules → Given/When/Then cases → executable specs
+
+### Tasks
+- [ ] Document the pattern as a reusable framework (not HAAS-specific)
+- [ ] Define what a "business requirements test harness" looks like for any team adopting AI
+- [ ] Write the methodology: how to identify critical business rules from an existing codebase
+- [ ] Write the methodology: how to translate business rules into executable tests
+- [ ] Harden existing tests (random-seed runs, integration with full suite, edge cases)
+- [ ] Expand coverage: convert remaining 10 business test docs into executable specs
+- [ ] Document findings and failure modes (what broke, what surprised us, what the tests caught)
+- [ ] Write the PDLC framework doc: where this fits, why it matters, how teams adopt it
+
+**Output:** Framework doc in `phases/` + methodology docs + reference implementation
+
+---
+
+## Phase 4 — Context Pipeline Specification (PLANNED)
 
 **Goal:** Produce a buildable specification for how context flows between PDLC phases — the artifact schema, agent contracts, and orchestration logic that make the Phase 2 scaffolds actually work as a connected system.
 
-**The problem:** The Phase 2 scaffolds describe what AI does at each phase in isolation. The real challenge is connecting them. The AI doing code review doesn't know what the requirements were. The AI doing QA doesn't know what design decisions were made. Each tool starts from scratch. See `context-pipeline.md` for the full problem statement.
+**The problem:** The Phase 2 scaffolds describe what AI does at each phase in isolation. The real challenge is connecting them. See [context-pipeline.md](../context-pipeline.md) for the full problem statement.
 
 **Approach:** Scenario-driven. Use a real feature (the R2R heatmap from the CIA Re-Write project) to walk through a 3-phase vertical slice (Requirements → Build → Review) and define exactly what artifacts are produced, what each agent consumes, and how context flows between them.
 
@@ -57,15 +89,15 @@ Cross-cutting themes: shift-left testing, parallel GTM stream, criteria gates re
 - [ ] Define orchestration logic for each handoff
 - [ ] Write end-to-end trace using R2R heatmap example
 
-**Output:** `docs/planning/phase-3/context-pipeline-spec.md`
+*Details refined after Phase 3.*
 
 ---
 
-## Phase 4 — Prototype (PLANNED)
+## Phase 5 — Prototype (PLANNED)
 
-**Goal:** Build the context pipeline on a real feature. Take the spec from Phase 3 and actually wire up Requirements → Build → Review with structured artifacts on the R2R heatmap (or similar real work).
+**Goal:** Build the context pipeline on a real feature. Take the spec from Phase 4 and actually wire up Requirements → Build → Review with structured artifacts on the R2R heatmap (or similar real work).
 
-*Details TBD after Phase 3.*
+*Details TBD after Phase 4.*
 
 ---
 
