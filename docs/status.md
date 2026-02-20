@@ -13,14 +13,20 @@ Phase 3 — AI Safety Net: Business Requirements Test Harness (IN PROGRESS)
 *14 phase scaffolds + overview in `phases/`.*
 
 ### Phase 3 — AI Safety Net: Business Requirements Test Harness (IN PROGRESS)
-- [ ] Document the pattern as a reusable framework (not HAAS-specific)
-- [ ] Define what a "business requirements test harness" looks like for any team adopting AI
-- [ ] Write methodology: how to identify critical business rules from an existing codebase
-- [ ] Write methodology: how to translate business rules into executable tests
-- [ ] Harden existing tests (random-seed runs, integration with full suite, edge cases)
-- [ ] Expand coverage: convert remaining 10 business test docs into executable specs
-- [ ] Document findings and failure modes (what broke, what surprised us, what the tests caught)
-- [ ] Write the PDLC framework doc: where this fits, why it matters, how teams adopt it
+
+**Define the process:**
+- [ ] Write process definition doc (6-step process, decision points, inputs/outputs)
+- [ ] Document Session 8 learnings (wrong assumptions, how hardening fixes them)
+
+**Prove the process (HAAS Alert reference implementation):**
+- [ ] Harden existing 2 spec files (random-seed runs, repeated execution, edge cases)
+- [ ] Convert remaining 10 business test docs into executable specs
+- [ ] Harden ALL specs through full hardening loop
+- [ ] Document every assumption mismatch and resolution
+
+**Package the process:**
+- [ ] Write final process doc (step-by-step, stack-agnostic, hand-to-AI-agent ready)
+- [ ] Write PDLC framework doc (where it fits, why it matters, how teams adopt it)
 
 ### Phase 4 — Context Pipeline Specification (PLANNED)
 *Tasks defined in plan.md. Starts after Phase 3.*
@@ -146,3 +152,5 @@ Phase 3 — AI Safety Net: Business Requirements Test Harness (IN PROGRESS)
 - Updated plan.md with full Phase 3 definition: thesis, rationale, existing work, 8 tasks
 - Updated status.md task tracker to reflect new phase structure
 - **Key framing:** When building is nearly free, the critical investment shifts from "how to build" to "how to prove what we built doesn't break what already works." This is the first artifact the project produces that another team could use tomorrow.
+- **Refined the deliverable:** The artifact isn't a document about testing — it's a repeatable 6-step process that AI follows to produce a proven test suite from any codebase. Codebase Crawl → Business Rule Extraction → Test Doc Generation → Executable Test Generation → Hardening Loop → Proven Test Suite. The process is the artifact; the test suite is the output.
+- Restructured Phase 3 tasks into three tracks: Define (document the process), Prove (execute it on HAAS Alert), Package (make it reusable).

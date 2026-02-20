@@ -53,23 +53,44 @@ Cross-cutting themes: shift-left testing, parallel GTM stream, criteria gates re
 - A real example of "AI-enforced quality gates" — the cross-cutting theme from Phase 2
 - The foundation that makes everything else trustworthy
 
+**The deliverable:** A repeatable process that AI follows to produce a proven integration test suite from any existing codebase. The process IS the artifact. The test suite is the output of running the process.
+
 **What exists (from Session 8, applied to HAAS Alert CIA Re-Write):**
 - 12 business requirement test docs (~200+ test cases) covering auth, users, assets, events, closures, alerting zones, exclusion zones, orgs, reports, trips, hazards, API keys
 - 2 executable RSpec spec files (62 passing tests) for auth and things/assets
 - CI/CD integration doc for post-deploy execution
-- Pattern: plain English business rules → Given/When/Then cases → executable specs
+- Session 8 effectively ran steps 1–4 of the process below on one codebase. Steps 5–6 remain.
+
+### The Process
+
+```
+Codebase Crawl --> Business Rule Extraction --> Test Doc Generation --> Executable Test Generation --> Hardening Loop --> Proven Test Suite
+```
+
+1. **Codebase crawl** — AI maps the codebase: domains, controllers, models, routes, services, policies. Identifies what the system does, not how.
+2. **Business rule extraction** — For each domain, AI identifies what the code promises to users. Business behavior, not implementation details. Plain English.
+3. **Test doc generation** — Each business rule becomes a Given/When/Then test case. Human-readable. Reviewable by non-engineers.
+4. **Executable test generation** — Convert test docs into actual specs in the project's test framework (RSpec, Jest, Playwright, etc.).
+5. **Hardening loop** — Run tests repeatedly. Random seeds. Different data states. Fix flaky tests. Fix wrong assumptions about actual codebase behavior. Iterate until every test passes reliably across many runs. This is where the AI learns what the codebase actually does vs. what it assumed.
+6. **Output** — Battle-tested integration test suite that proves existing functionality works. Ready to run post-deploy.
 
 ### Tasks
-- [ ] Document the pattern as a reusable framework (not HAAS-specific)
-- [ ] Define what a "business requirements test harness" looks like for any team adopting AI
-- [ ] Write the methodology: how to identify critical business rules from an existing codebase
-- [ ] Write the methodology: how to translate business rules into executable tests
-- [ ] Harden existing tests (random-seed runs, integration with full suite, edge cases)
-- [ ] Expand coverage: convert remaining 10 business test docs into executable specs
-- [ ] Document findings and failure modes (what broke, what surprised us, what the tests caught)
-- [ ] Write the PDLC framework doc: where this fits, why it matters, how teams adopt it
 
-**Output:** Framework doc in `phases/` + methodology docs + reference implementation
+**Define the process (documentation):**
+- [ ] Write the process definition doc — the 6 steps above, fleshed out with decision points, inputs/outputs, and guidance for each step
+- [ ] Document what we learned in Session 8: assumptions that were wrong, how we discovered them, how the hardening loop fixes this
+
+**Prove the process (execution on HAAS Alert):**
+- [ ] Harden existing 2 spec files (random-seed runs, repeated execution, edge cases) — Step 5
+- [ ] Convert remaining 10 business test docs into executable specs — Step 4 for the rest
+- [ ] Harden ALL specs through the full hardening loop — Step 5 at scale
+- [ ] Document every assumption mismatch and how it was resolved
+
+**Package the process (reusable artifact):**
+- [ ] Write the final process doc: step-by-step, stack-agnostic, ready for any team to hand to an AI agent
+- [ ] Write the PDLC framework doc: where this fits in the lifecycle, why it matters, how teams adopt it
+
+**Output:** Process definition doc + PDLC framework doc in `phases/` | Reference implementation (HAAS Alert test suite) as proof it works
 
 ---
 
